@@ -1,4 +1,4 @@
-next_page
+next-page
 =========
 
-next_page
+next-page
