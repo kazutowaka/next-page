@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "次の検索結果に遷移します",
+  "version": "1.0",
+  "description": "次の検索結果に遷移します",
+  "permissions": ["contextMenus", "tabs"],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }],
+  "background": {
+      "scripts": ["background.js"]
+  }
+}
